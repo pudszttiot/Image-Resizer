@@ -1,0 +1,54 @@
+
+====================================
+     Release Notes - ImageResizer v1.1
+
+        Version 1.1 Released June 16, 2023
+====================================
+
+
+Key Changes:
+------------
+- GUI application built using the `tkinter` library.
+- Allows users to choose an image file and resize it to predefined dimensions or custom dimensions.
+- Provides options to select the output destination folder.
+- Supports popular image formats such as PNG, JPG, and JPEG.
+- Displays the resized image and shows a success message after the resizing process.
+- Watermark label added at the bottom-right corner.
+
+
+Features:
+---------
+- Upgraded the `Pillow` library import to include `ImageTk` module for displaying images in the GUI.
+- Reorganized code structure to improve clarity and maintainability.
+- Updated the path to the application icon file (`resizer.ico`). Please make sure to provide the correct path for the icon file.
+- Adjusted the GUI window size to 550x500 pixels.
+- Changed the background image of the application to "gradient 2.png". Please replace it with your desired background image.
+
+Enhancements:
+-------------
+- Added a custom dimension option to allow users to specify their desired width and height for image resizing.
+- Implemented a dropdown menu with predefined dimension choices to simplify the selection process.
+- Incorporated a dynamic UI feature that displays custom dimension input fields only when the "Custom" option is selected from the dropdown menu.
+- Improved the user interface by using a consistent color scheme and font styles throughout the application.
+- Optimized the image resizing process by converting the resized image to the RGB color mode.
+- Introduced descriptive labels and clear instructions to guide users in selecting an image file and output destination.
+
+
+Bug Fixes:
+----------
+- Fixed an issue where the resized image was not shown after the resizing process.
+- Fixed a bug where the application crashed when the chosen image file was not found or when permission was denied to access the file.
+
+
+Known Issues:
+-------------
+- The application currently only supports PNG, JPG, and JPEG image formats. Other formats may not be compatible.
+- The resizing process may take longer for larger images or when custom dimensions are entered.
+- The application does not provide an option to maintain the aspect ratio of the original image when resizing.
+
+
+For instructions on how to use the ImageResizer, please refer to the "How to use" section from the menu bar or for detailed instructions refer to the "Help File" section from the menu bar.
+
+
+Thank you for using ImageResizer!
+
