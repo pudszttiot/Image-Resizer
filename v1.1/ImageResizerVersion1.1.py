@@ -29,16 +29,16 @@ image_label.pack(pady=(15, 0))
 
 # Function to choose an image file
 def choose_image():
-    file_path = filedialog.askopenfilename(filetypes=[("Image files", "*.png *.jpg *.jpeg")])
-    if file_path:
+    if file_path := filedialog.askopenfilename(
+        filetypes=[("Image files", "*.png *.jpg *.jpeg")]
+    ):
         entry.delete(0, tk.END)  # Clear the entry field
         entry.insert(0, file_path)  # Set the chosen file path in the entry field
 
 
 # Function to choose the output destination
 def choose_output_destination():
-    folder_path = filedialog.askdirectory()
-    if folder_path:
+    if folder_path := filedialog.askdirectory():
         output_entry.delete(0, tk.END)  # Clear the entry field
         output_entry.insert(0, folder_path)  # Set the chosen folder path in the entry field
 
