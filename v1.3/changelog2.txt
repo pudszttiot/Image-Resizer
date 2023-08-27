@@ -1,0 +1,31 @@
+Certainly! Let's break down the changes between the two versions of the code in a way that's easy to understand for someone new to programming:
+
+1. **Image File Paths:**
+   - In the first version, the code uses full file paths like "G:\Software\py\Python Creations\Completed\Projects\ImageResizer\Images\gradient 2.png" for images.
+   - In the second version, it uses shorter relative paths like "..\Images\gradient 2.png", which start from the location of the code file itself.
+
+2. **Function Documentation:**
+   - In the second version, some functions have explanations written as comments (docstrings) to help you understand what each function does.
+
+3. **Selecting Multiple Images:**
+   - In the second version, you can now pick several image files at once instead of just one when you click the "Choose Image" button. The selected files are shown together using semicolons.
+
+4. **Seeing Progress with a Bar:**
+   - In the second version, when you resize multiple images, there's a progress bar that shows you how far the resizing has come. It's like a loading bar you might have seen while waiting for something.
+
+5. **Resizing Many Images:**
+   - In the second version, you can resize multiple images all at once. So, if you have a bunch of images, you don't need to resize them one by one.
+
+6. **Choosing Sizes and Formats:**
+   - In the second version, there are new choices for image dimensions (like size options) and image formats (like PNG or JPEG). This helps you control how your resized images will look.
+
+7. **Making Sure Numbers Are Used:**
+   - In the second version, if you decide to enter your own dimensions for the images, the code checks to make sure you only use numbers. This way, it won't get confused.
+
+8. **Watermark Position:**
+   - In the first version, the "pudszTTIOT" label was at the bottom-right corner. In the second version, it's also at the bottom-right, but the way it's placed is a bit different.
+
+9. **Starting the Program:**
+   - Both versions end with a line that starts the program and shows the window with all the buttons and options.
+
+Remember, code changes are like updating a recipe. Each version is like a new way of cooking the same dish. These changes make the program more user-friendly and powerful, so you can do more with it!

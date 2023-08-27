@@ -1,0 +1,34 @@
+Here's a changelog highlighting the changes between the two versions of the Python code you provided:
+
+**Changes:**
+
+1. **Image File Paths:**
+    - In the first version, image file paths are provided using absolute paths.
+    - In the second version, image file paths are provided using relative paths with backslashes (`..\`).
+
+2. **Function Documentation:**
+    - In the second version, function documentation (docstrings) has been added for the `choose_image()` and `choose_output_destination()` functions.
+
+3. **Multiple Image Selection:**
+    - In the second version, the `choose_image()` function now allows selecting multiple image files at once using the `askopenfilenames` method. The selected file paths are joined with semicolons in the entry field.
+
+4. **Progress Bar:**
+    - The second version introduces the `tqdm` library to create a progress bar for the `resize_multiple_images_with_progress()` function.
+
+5. **Multiple Image Resizing:**
+    - In the second version, the `resize_multiple_images_with_progress()` function has been introduced to resize multiple selected images with progress tracking.
+
+6. **Dimensions and Format:**
+    - In the second version, the predefined dimensions and format choices have been updated.
+
+7. **Custom Dimension Validation:**
+    - In the second version, the `resize_multiple_images_with_progress()` function includes validation to ensure that custom width and height inputs are numeric.
+
+8. **Watermark Position:**
+    - In the first version, the watermark label is placed at the bottom-right corner.
+    - In the second version, the watermark label is placed at the bottom-right corner using the `pack()` method and the `anchor` attribute.
+
+9. **Start GUI Event Loop:**
+    - Both versions include the code to start the GUI event loop using the `window.mainloop()` statement.
+
+Please note that this changelog focuses on the changes between the two versions of the provided code snippets. If you have any specific questions about these changes or need further assistance, feel free to ask!
