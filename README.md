@@ -2,7 +2,7 @@
   <img width="660" height="500" src="https://i.ibb.co/hyL0Xt0/Image-Resizer.png">
 </p>
 
-# Image-Resizer
+# Image Resizer
 
 This application offers a seamless image resizing experience with an intuitive graphical interface. Built from Python code, this application enables users to effortlessly resize multiple images at once. With support for various formats, batch resizing, and customizable dimensions, it's a versatile tool for both casual users and developer. This application is ideal for users seeking a straightforward and efficient image processing tool. 
 
@@ -32,7 +32,7 @@ List and describe the key features of your project.
 
 ## Contributing 
 
-Tell others how they can contribute to your project. 
+Contributions and feedback are welcome! Feel free to submit issues, feature requests, or pull requests to enhance Image Resizer.
 
 ## License 
 
