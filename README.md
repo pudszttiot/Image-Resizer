@@ -4,7 +4,7 @@
 
 # Image-Resizer
 
-APP DESCRIPTION HERE... ex: pipReq is a Python application designed to effortlessly perform various essential operations related to Python package management, such as generating 'requirements.txt' files, checking for installed package issues, updating packages and installing from 'requirements.txt'. 
+This application offers a seamless image resizing experience with an intuitive graphical interface. Built from Python code, this application enables users to effortlessly resize multiple images at once. With support for various formats, batch resizing, and customizable dimensions, it's a versatile tool for both casual users and developer. This application is ideal for users seeking a straightforward and efficient image processing tool. 
 
 ## Screenshots 
 
