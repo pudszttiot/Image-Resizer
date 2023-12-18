@@ -28,7 +28,20 @@ Provide examples and guidelines on how to use your project.
 
 ## Features 
 
-List and describe the key features of your project. 
+- Allows users to choose multiple image files.
+- Allows users to choose an output destination folder.
+- Provides a progress bar while resizing images.
+- Resizes selected images based on predefined dimensions or custom dimensions.
+- Supports various image formats (png, gif, ico, jpeg, jpg).
+
+- Predefined Dimensions:
+  - Offers a selection of predefined dimensions for resizing images (e.g., Album Cover Art, Full HD).
+
+- Custom Dimensions:
+  - Allows users to input custom width and height for image resizing.
+
+- Format Selection:
+  - Provides a dropdown menu for users to choose the output image format.
 
 ## Contributing 
 
